@@ -79,26 +79,64 @@
 // const user = 'Oleg';
 
 // alert(`Привіт, ${user}`);
-const numberOfFilms = +prompt('Скільки фільмів Ви вже подивились?', '');
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// practice
+// const numberOfFilms = +prompt('Скільки фільмів Ви вже подивились?', '');
 
-const lastMovie1 = prompt('Один з останніх переглянутих фільмів?', '');
-const ratingOfFilm1 = prompt('На скільки оціните його', '');
-const lastMovie2 = prompt('Один з останніх переглянутих фільмів?', '');
-const ratingOfFilm2 = prompt('На скільки оціните його', '');
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-personalMovieDB.movies[lastMovie1] = ratingOfFilm1;
-personalMovieDB.movies[lastMovie2] = ratingOfFilm2;
+// const lastMovie1 = prompt('Один з останніх переглянутих фільмів?', '');
+// const ratingOfFilm1 = prompt('На скільки оціните його', '');
+// const lastMovie2 = prompt('Один з останніх переглянутих фільмів?', '');
+// const ratingOfFilm2 = prompt('На скільки оціните його', '');
 
-console.log(personalMovieDB);
+// personalMovieDB.movies[lastMovie1] = ratingOfFilm1;
+// personalMovieDB.movies[lastMovie2] = ratingOfFilm2;
 
+// console.log(personalMovieDB);
+
+// Умови
+
+// if (4 == 9) {
+//     console.log('ok!');
+// } else{
+//     console.log('error');
+// }
+
+
+
+// if (num < 49) {
+//     console.log('Ну і лапа');
+// } else if (num>100) {
+//     console.log('to much');
+// } else {
+//     console.log('ok!');
+// }
+
+// (num === 50) ? console.log('ok!') : console.log('error');
+
+const num = 50;
+
+switch (num) {
+    case 49: 
+        console.log('Ну і лапа');
+        break;
+    case 100:
+        console.log('Ну і лапа');
+        break;
+    case 51:
+        console.log('Nice');
+        break;
+    default: 
+        console.log('Не влазиш');
+        break;
+}
 
 
 
