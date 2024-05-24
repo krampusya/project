@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+ 
 "use strict"
  
 // /* eslint-disable no-unused-vars */
@@ -71,10 +72,33 @@
 // console.log(typeof(answers));
 // console.log(typeof(null));
 
-const category = 'toys';
+// const category = 'toys';
 
-console.log(`https://someurl.com/${category}/5`);
+// console.log(`https://someurl.com/${category}/5`);
 
-const user = 'Oleg';
+// const user = 'Oleg';
 
-alert(`Привіт, ${user}`);
+// alert(`Привіт, ${user}`);
+const numberOfFilms = +prompt('Скільки фільмів Ви вже подивились?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+const lastMovie1 = prompt('Один з останніх переглянутих фільмів?', '');
+const ratingOfFilm1 = prompt('На скільки оціните його', '');
+const lastMovie2 = prompt('Один з останніх переглянутих фільмів?', '');
+const ratingOfFilm2 = prompt('На скільки оціните його', '');
+
+personalMovieDB.movies[lastMovie1] = ratingOfFilm1;
+personalMovieDB.movies[lastMovie2] = ratingOfFilm2;
+
+console.log(personalMovieDB);
+
+
+
+
