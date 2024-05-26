@@ -172,24 +172,26 @@
 // } else {
 //     console.log('Ми йдемо');
 
-const hamburger = 3;
-const fries = 3;
-const cola = 0;
-const nuggets = 2;
+// const hamburger = 3;
+// const fries = 3;
+// const cola = 0;
+// const nuggets = 2;
 
  
-if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
-    console.log('Ви їсте');
-} else {
-    console.log('Ми йдемо');
-}
+// if (hamburger === 3 && cola === 2 || fries === 3 && nuggets) {
+//     console.log('Ви їсте');
+// } else {
+//     console.log('Ми йдемо');
+// }
 
-console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
+// console.log(hamburger === 3 && cola === 2 || fries === 3 && nuggets);
 
 
-let johnReport, alexReport, samReaport, mariaReport = "done";
+// let johnReport, alexReport, samReaport, mariaReport = "done";
 
-console.log(johnReport || alexReport || samReaport || mariaReport);
+// console.log(johnReport || alexReport || samReaport || mariaReport);
+
+// console.log(!0);
 
 
 
