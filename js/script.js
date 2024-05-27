@@ -193,5 +193,25 @@
 
 // console.log(!0);
 
+// Цикли
 
 
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+
+// while (num < 55);
+
+// let num = 50;
+
+// for (let i = 1; i < 0; i++) {
+//     console.log(num);
+//     num++;
+// }
