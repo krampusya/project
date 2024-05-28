@@ -667,3 +667,34 @@
 // }
 
 // writeYourGenres();
+
+// callback !!!
+
+function fitst(){
+    // Do something
+    setTimeout(function(){
+        console.log(1);
+    }, 500);
+}
+
+function second(){
+    // Do something
+    console.log(2);
+
+}
+fitst();
+second();
+
+function learnJS(lang, callback){
+    console.log(`Я вчу: ${lang}`);
+    callback();
+}
+
+function done(){
+    console.log('Я закінчив');
+}
+
+learnJS('JavaScript', done);
+
+
+
