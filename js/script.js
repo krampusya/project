@@ -454,3 +454,71 @@
 
 // convert(500, usdCurr);
 // convert(500, eurCurr);
+
+// return 
+
+// const usdCurr = 28;
+// const discount = 0.9;
+
+// function convert (amount, curr) {
+//     return curr * amount;
+// }
+
+// function promotion (result) {
+//     console.log(result * discount);
+//     return function(){
+//     }
+// }
+
+// const res = convert(500, usdCurr);
+// promotion(res);
+
+// function test(){
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i);
+//         if (i === 3) return
+//     }
+//     console.log('Done');
+// }
+
+// test();
+
+// function doNothing() {};
+// console.log(doNothing() == undefined);
+
+
+// function getMathResult(data, progress) {
+//     for (let i = 0; i < 2; i==){
+//         console.log(i);
+//     }
+// }
+
+// методи і властивості 
+
+// const str = 'teSt';
+
+// // console.log(str[2] = 'd')
+
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str);
+
+// let fruit = 'Some fruit';
+
+// console.log(fruit.indexOf('q'));
+
+// const logg = 'Hello world';
+
+// // console.log(logg.slice(6, 11));
+
+// // console.log(logg.substring(6, 11));
+
+// console.log(logg.substr(6, 5));
+
+// const num = 12.2;
+
+// console.log(Math.round(num));
+
+// const test = '12.2px';
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
