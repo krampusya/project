@@ -251,3 +251,148 @@
 //         }
 //     }
 // }
+
+// let num = 5;
+// while (num <= 10) {
+//     console.log(num);
+//     num++;
+// }
+
+// for (let i = 20; i > 10; i--) {
+//     console.log(i);
+//     if (i === 13) break;
+// }
+
+// for (let m = 2; m <= 10; m += 2) {
+//     console.log(m);
+// }
+
+// let j = 2;
+
+// while (j <= 16) {
+//     if (j % 2 === 0) {
+//         j++;
+//         continue;
+//     } else {
+//         console.log(j);
+//     }
+//     j++;
+// }
+
+// let arr = [];
+
+// for (let k = 5; k <=10; k++) {
+//     arr.push(k);
+// }
+
+// console.log(arr);
+
+// function firstTask() {
+//     // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//     const arr = [3, 5, 8, 16, 20, 23, 50];
+//     const result = [];
+
+//     // Пишем решение вот тут
+//     for (let i = 0; i < arr.length; i++) {
+//         result[i] = arr[i];
+//     }
+//     console.log(result);
+//     // Не трогаем
+//     return result;
+// }
+
+
+// function secondTask() {
+//     // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//     const data = [5, 10, 'Shopping', 20, 'Homework'];
+
+//     // Пишем решение вот тут
+    
+//     for (let i = 0; i < data.length; i++) {
+//         if (typeof(data[i]) === 'number') {
+//             data[i] = data[i] * 2;
+//         } else if (typeof(data[i]) === 'string') {
+//             data[i] = `${data[i]} - done`;
+//         }
+//     }
+
+//     console.log(data);
+    
+//     // Не трогаем
+//     return data;
+// }
+
+// const data = [5, 10, 'Shopping', 20, 'Homework'];
+// const result = [];
+
+// // Пишем решение вот тут
+// for (let i = data.length - 1; i >= 0; i--) {
+//     result.push(data[i]);
+// }
+    
+// // Не трогаем
+// console.log(result); // This line is just for testing the output
+// return result;
+
+
+
+// let result = '';
+// const length = 7;
+
+// for (let i = 1; i < length; i++) {
+
+//     for (let j = 0; j < i; j++) {
+//     result += '*';
+//     }
+
+//     result += '\n';
+// }
+
+// console.log(result);
+
+// practice 2
+
+const numberOfFilms = +prompt('Скільки фільмів Ви вже подивились?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+
+
+// const a = prompt('Один з останніх переглянутих фільмів?', '');
+// const b = prompt('На скільки оціните його', '');
+// const c = prompt('Один з останніх переглянутих фільмів?', '');
+// const d = prompt('На скільки оціните його', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+for (let i = 0; i < 2; i++) {
+    const a = prompt('Один з останніх переглянутих фільмів?', ''),
+    b = prompt('На скільки оціните його', '');
+if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+    personalMovieDB.movies[a] = b;
+    console.log('done');
+} else {
+    console.log('error');
+    i--;
+}
+}
+
+if (personalMovieDB.count < 10) {
+    console.log('Переглянуто доволі мало фільмів');
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count <= 30){
+    console.log('Ви класичний глядач');
+} else if (personalMovieDB.count > 30){
+    console.log('Ви кіноман');
+} else {
+    console.log('Відбулась помилка')
+}
+
+
+console.log(personalMovieDB);
+
