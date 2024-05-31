@@ -734,6 +734,43 @@
 
 // console.log(counter); // Outputs the count of non-object properties in the options object
 
+// Масиви та псевдомасиви
+
+// const arr = [2, 13, 26, 8, 10];
+// arr.sort(compareNum);
+// console.log(arr); // Outputs the
+
+// function compareNum(a, b) {
+//     return a - b;
+// }
+// arr.sort(compareNum);
+
+// arr[99] = 0;
+
+// console.log(arr.length); //
+
+// arr.forEach(function(item, i, arr){
+//     console.log(`${i}: ${item} в середині масиву ${arr}`);
+// });
+
+// arr.pop();
+// arr.push(10);
+
+// console.log(arr); // Outputs the count of non-object properties in the options object
+
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
+
+// for (let value of arr) {
+//     console.log(value);
+// }
+
+// const str = prompt("", "");
+// const products = str.split(", ");
+// products.sort();
+// console.log(products.join('; '));
+
 
 
 
